@@ -6,6 +6,6 @@ import org.bukkit.entity.Player;
 
 public class StatusChecker {
     public static void statusStarfall(Player p) {
-        p.sendMessage(Main.prefix() + ChatColor.GRAY + "Starfall is currently set to " + ChatColor.RED + Main.getGameCheck());
+        p.sendMessage(Main.prefix() + ChatColor.GRAY + "Starfall is currently set to " + ChatColor.RED + Main.plugin.getGameCheck());
     }
 }

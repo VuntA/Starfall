@@ -66,7 +66,7 @@ public class Main extends JavaPlugin implements Listener {
         mainLoc = loc;
     }
 
-    public static boolean getGameCheck() {
+    public boolean getGameCheck() {
         return gameCheck;
     }
 
