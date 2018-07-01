@@ -150,7 +150,7 @@ public class Main extends JavaPlugin implements Listener {
                                 && p.getPlayer().getInventory().getItemInHand().getEnchantmentLevel(Enchantment.DURABILITY) == 15) {
                         }else {
                             e.setCancelled(true);
-                            p.sendMessage(ChatColor.RED + "You must use a Starfall Pickaxe!");
+                            p.sendMessage(ChatColor.RED + "You must use a Starfall Pickaxe");
                         }
                     }
                 }
