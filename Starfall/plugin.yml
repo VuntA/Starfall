@@ -1,0 +1,11 @@
+name: Starfall
+version: 0.1
+author: Vunt
+
+main: me.starfall.Main
+
+commands:
+  starfall:
+    description: Starfall Pickaxe.
+    aliases: []
+    usage: Syntax error! Simply type /&lt;command&gt;

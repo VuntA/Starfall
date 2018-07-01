@@ -1,0 +1,5 @@
+# Spell out the material as meant to be or there will be an error.
+rewards:
+  - BEACON
+  - OBSIDIAN
+amount: 5
