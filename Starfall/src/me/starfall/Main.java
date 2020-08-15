@@ -81,8 +81,8 @@ public class Main extends JavaPlugin implements Listener {
 			int z = r.nextInt(4999) + 1;
 			int y = (Bukkit.getWorlds().get(0)).getHighestBlockAt(x,z).getY();
 			Location loc = new Location(Bukkit.getWorlds().get(0), x, y, z);
-			if (BiomeCheck.isOceanBiome(loc, b) == true || BiomeCheck.isDeepOceanBiome(loc, c) == true) {
-				while (BiomeCheck.isOceanBiome(loc, b) == true || BiomeCheck.isDeepOceanBiome(loc, c) == true) {
+			if (BiomeCheck.checkBiome(loc, b) || BiomeCheck.checkBiome(loc, c)) {
+				while (BiomeCheck.checkBiome(loc, b) || BiomeCheck.checkBiome(loc, c)) {
 					x = r.nextInt(4999) + 1;
 					z = r.nextInt(4999) + 1;
 					y = (Bukkit.getWorlds().get(0)).getHighestBlockAt(x,z).getY();
